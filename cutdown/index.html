@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Year Countdown</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #000;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="fireworksCanvas"></canvas>
+
+  <script>
+    // 创建canvas元素
+    const canvas = document.getElementById('fireworksCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // 设置canvas大小
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const fireworks = []; // 新增：用于存储烟花粒子的数组
+
+    // 创建烟花粒子
+    function createFirework() {
+      const firework = {
+        x: Math.random() * canvas.width,
+        y: canvas.height,
+        targetX: Math.random() * canvas.width,
+        targetY: Math.random() * canvas.height / 2,
+        size: 3,
+        color: `hsl(${Math.random() * 360}, 100%, 50%)`,
+        speed: 2,
+        brightness: Math.random() * 50 + 50
+      };
+      fireworks.push(firework);
+    }
+
+    // 更新烟花粒子的位置
+    function updateFireworks() {
+      fireworks.forEach((firework, index) => {
+        firework.x = firework.x + (firework.targetX - firework.x) * firework.speed;
+        firework.y = firework.y + (firework.targetY - firework.y) * firework.speed;
+
+        const distance = Math.sqrt(Math.pow(firework.targetX - firework.x, 2) + Math.pow(firework.targetY - firework.y, 2));
+
+        if (distance < 10) {
+          fireworks.splice(index, 1);
+        }
+      });
+    }
+
+    // 绘制烟花粒子
+    function drawFireworks() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      fireworks.forEach(firework => {
+        ctx.beginPath();
+        ctx.fillStyle = firework.color;
+        ctx.arc(firework.x, firework.y, firework.size, 0, Math.PI * 2);
+        ctx.fill();
+      });
+    }
+
+    // 播放烟花效果
+    function playFireworks() {
+      for (let i = 0; i < 30; i++) { // 新增：产生30个烟花粒子
+        createFirework();
+      }
+    }
+
+    // 倒计时结束时触发烟花效果
+    function countdownFinished() {
+      playFireworks(); // 触发烟花效果
+      // 可以在这里编写更复杂的烟花动画逻辑
+    }
+
+    // 替换这里的时间为新年的时间（月份从0开始计算）
+    const newYearDate = new Date(new Date().getFullYear() + 1, 0, 1).getTime();
+
+    // 每秒检查是否倒计时结束
+    function updateCountdown() {
+      const currentDate = new Date().getTime();
+      const difference = newYearDate - currentDate;
+
+      if (difference <= 0) {
+        clearInterval(countdownInterval); // 清除倒计时定时器
+        countdownFinished(); // 倒计时结束，触发烟花效果
+      }
+    }
+
+    const countdownInterval = setInterval(updateCountdown, 1000); // 每秒检查一次倒计时
+    updateCountdown(); // 立即检查一次倒计时
+
+    // 主循环
+    function loop() {
+      updateFireworks();
+      drawFireworks();
+      requestAnimationFrame(loop);
+    }
+
+    loop(); // 开始动画循环
+
+  </script>
+</body>
+</html>
