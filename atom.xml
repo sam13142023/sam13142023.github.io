@@ -6,7 +6,7 @@
   <link href="https://blog.jyf.icu/atom.xml" rel="self"/>
   
   <link href="https://blog.jyf.icu/"/>
-  <updated>2024-02-04T08:26:54.791Z</updated>
+  <updated>2024-02-18T10:25:53.000Z</updated>
   <id>https://blog.jyf.icu/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://blog.jyf.icu/2024/02/18/test/"/>
+    <id>https://blog.jyf.icu/2024/02/18/test/</id>
+    <published>2024-02-18T10:25:37.555Z</published>
+    <updated>2024-02-18T10:25:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>监控程序测试文件</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;监控程序测试文件&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -38,8 +59,8 @@
   
   <entry>
     <title>Openai测评</title>
-    <link href="https://blog.jyf.icu/2024/01/27/post/"/>
-    <id>https://blog.jyf.icu/2024/01/27/post/</id>
+    <link href="https://blog.jyf.icu/2024/01/27/openai%E6%B5%8B%E8%AF%84/"/>
+    <id>https://blog.jyf.icu/2024/01/27/openai%E6%B5%8B%E8%AF%84/</id>
     <published>2024-01-26T16:00:00.000Z</published>
     <updated>2024-01-28T05:26:45.000Z</updated>
     
@@ -64,9 +85,31 @@
   </entry>
   
   <entry>
+    <title>祝大家元旦快乐</title>
+    <link href="https://blog.jyf.icu/2023/12/31/2024%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/"/>
+    <id>https://blog.jyf.icu/2023/12/31/2024%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/</id>
+    <published>2023-12-31T00:00:00.000Z</published>
+    <updated>2023-12-31T04:41:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在元旦祝各位大佬：Windows开机蓝屏，Linux开机Kernel Panic，macos开机五国，服务器iDRAC&#x2F; iLO&#x2F;IPMI&#x2F;KVM&#x2F;CVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全冲突，压接网线全短路，bgp全漏表，机柜全断电，raid全爆炸，nas数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿，固态出0E。<br>PHP全Fatal Error，fileinfo全装不上，npm&#x2F;composer install全报错，Laravel Mix全报未知错误，服务器全部宕机，电脑开机报错，Linux rm -rf &#x2F;*，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙，服务器炸库，网关无响应，代理500，网站502，RAID组几个一起炸几个，UPS爆炸，一年到头DDOS CC不断，流量几千个T，并发上亿，ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时，wordpress爆致命错误。<br>twrp卡刷必报错，第三方rom必变砖，download模式必掉，9008救砖救不过，小米解锁必卡168，刷第三方内核必卡第二屏，Magisk刷模块必格机，Riru必异常，lsposed模块加载必失败，刷抖音必烧屏，频闪必瞎眼，刷新率必锁60hz，钛备份效验出错。<br>编译器抽风，编译程序全错误，错误全都抛不出，多线程全都调不好，忘记保存必停电，自动保存必成0x00，内存全吃满，CPU高发热，调试全崩溃，封装全找不到主类，问题全无法解决，IDE全无响应，找人帮忙全不是大佬，有想法时全尿急，变量全接不到值，写过的代码全忘记，自己的注释全看不懂，程序编译后全是bug，bug越修越多</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在元旦祝各位大佬：Windows开机蓝屏，Linux开机Kernel Panic，macos开机五国，服务器iDRAC&amp;#x2F; iLO&amp;#x2F;IPMI&amp;#x2F;KVM&amp;#x2F;CVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全</summary>
+      
+    
+    
+    
+    
+    <category term="整活" scheme="https://blog.jyf.icu/tags/%E6%95%B4%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>国家主席习近平发表2024年新年贺词</title>
-    <link href="https://blog.jyf.icu/2023/12/31/post11/"/>
-    <id>https://blog.jyf.icu/2023/12/31/post11/</id>
+    <link href="https://blog.jyf.icu/2023/12/31/%E4%B8%BB%E5%B8%AD2024%E8%B4%BA%E8%AF%8D/"/>
+    <id>https://blog.jyf.icu/2023/12/31/%E4%B8%BB%E5%B8%AD2024%E8%B4%BA%E8%AF%8D/</id>
     <published>2023-12-31T00:00:00.000Z</published>
     <updated>2024-01-01T13:44:32.000Z</updated>
     
@@ -90,31 +133,9 @@
   </entry>
   
   <entry>
-    <title>祝大家元旦快乐</title>
-    <link href="https://blog.jyf.icu/2023/12/31/post5/"/>
-    <id>https://blog.jyf.icu/2023/12/31/post5/</id>
-    <published>2023-12-31T00:00:00.000Z</published>
-    <updated>2023-12-31T04:41:25.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>在元旦祝各位大佬：Windows开机蓝屏，Linux开机Kernel Panic，macos开机五国，服务器iDRAC&#x2F; iLO&#x2F;IPMI&#x2F;KVM&#x2F;CVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全冲突，压接网线全短路，bgp全漏表，机柜全断电，raid全爆炸，nas数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿，固态出0E。<br>PHP全Fatal Error，fileinfo全装不上，npm&#x2F;composer install全报错，Laravel Mix全报未知错误，服务器全部宕机，电脑开机报错，Linux rm -rf &#x2F;*，数据库Delete，CN2全绕路，线路全阻断，海外网站全被墙，服务器炸库，网关无响应，代理500，网站502，RAID组几个一起炸几个，UPS爆炸，一年到头DDOS CC不断，流量几千个T，并发上亿，ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时，wordpress爆致命错误。<br>twrp卡刷必报错，第三方rom必变砖，download模式必掉，9008救砖救不过，小米解锁必卡168，刷第三方内核必卡第二屏，Magisk刷模块必格机，Riru必异常，lsposed模块加载必失败，刷抖音必烧屏，频闪必瞎眼，刷新率必锁60hz，钛备份效验出错。<br>编译器抽风，编译程序全错误，错误全都抛不出，多线程全都调不好，忘记保存必停电，自动保存必成0x00，内存全吃满，CPU高发热，调试全崩溃，封装全找不到主类，问题全无法解决，IDE全无响应，找人帮忙全不是大佬，有想法时全尿急，变量全接不到值，写过的代码全忘记，自己的注释全看不懂，程序编译后全是bug，bug越修越多</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;在元旦祝各位大佬：Windows开机蓝屏，Linux开机Kernel Panic，macos开机五国，服务器iDRAC&amp;#x2F; iLO&amp;#x2F;IPMI&amp;#x2F;KVM&amp;#x2F;CVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全</summary>
-      
-    
-    
-    
-    
-    <category term="整活" scheme="https://blog.jyf.icu/tags/%E6%95%B4%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
     <title>你真的在听吗？</title>
-    <link href="https://blog.jyf.icu/2023/12/17/post4/"/>
-    <id>https://blog.jyf.icu/2023/12/17/post4/</id>
+    <link href="https://blog.jyf.icu/2023/12/17/%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%9C%A8%E5%90%AC%E5%90%97/"/>
+    <id>https://blog.jyf.icu/2023/12/17/%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%9C%A8%E5%90%AC%E5%90%97/</id>
     <published>2023-12-17T11:42:25.000Z</published>
     <updated>2023-12-31T04:40:03.000Z</updated>
     
@@ -137,12 +158,12 @@
   
   <entry>
     <title>注册DN42网络</title>
-    <link href="https://blog.jyf.icu/2023/11/11/post3/"/>
-    <id>https://blog.jyf.icu/2023/11/11/post3/</id>
+    <link href="https://blog.jyf.icu/2023/11/11/%E6%B3%A8%E5%86%8Cdn42/"/>
+    <id>https://blog.jyf.icu/2023/11/11/%E6%B3%A8%E5%86%8Cdn42/</id>
     <published>2023-11-11T12:42:25.000Z</published>
-    <updated>2023-11-11T14:08:15.794Z</updated>
+    <updated>2024-02-04T15:05:56.189Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="阅前须知"><a href="#阅前须知" class="headerlink" title="阅前须知"></a>阅前须知</h2><ul><li>阅读本教程，<strong>默认</strong>您拥有一定的<a href="https://blog.csdn.net/qq_44094296/article/details/114324505">git基础</a></li><li>阅读本教程，<strong>默认</strong>您已经阅读过<a href="https://blog.jyf.icu/2023/10/21/post2/">这篇文章</a></li><li>由于DN42的网络性质（详见DN42介绍部分），在中国境内链接<em><strong>可能有法律风险</strong></em>，请自行<strong>斟酌部署位置</strong></li></ul><h2 id="DN42介绍"><a href="#DN42介绍" class="headerlink" title="DN42介绍"></a>DN42介绍</h2><blockquote><p>DN42 全称 Decentralized Network 42（42 号去中心网络），是一个大型、去中心化的 VPN 网络。但是与其它传统 VPN 不同的是，DN42 本身不提供 VPN 出口服务，即不提供规避网络审查、流媒体解锁等类似服务。相反，DN42 的目的是模拟一个互联网。它使用了大量在目前互联网骨干上应用的技术（例如 BGP 和递归 DNS），可以很好地模拟一个真实的网络环境。<br>简而言之，DN42：</p><ul><li>不适合单纯想要保护隐私、规避网络审查的用户</li><li>不适合在网内消耗大量流量，例如用于解锁流媒体服务的用户</li><li>适合想要研究网络技术，练习服务器、路由器等网络设备配置，甚至后续在真实互联网建立 AS 的用户</li><li>适合拥有真实 AS，但担心自己<a href="https://blog.cloudflare.com/how-verizon-and-a-bgp-optimizer-knocked-large-parts-of-the-internet-offline-today/">配置错误广播出错误路由、干掉半个互联网</a>，希望有个地方测试的用户。<br>via <a href="https://lantian.pub/article/modify-website/dn42-experimental-network-2020.lantian/">LanTian’s blog</a><br>简单来说，DN42是一个大型VPN网络，为了模拟真实的互联网。（注意：<strong>在中国大陆区域链接VPN，可能存在法律风险，建议使用非大陆区域的服务器链接。</strong>）</li></ul></blockquote><h2 id="大致步骤及你需要什么"><a href="#大致步骤及你需要什么" class="headerlink" title="大致步骤及你需要什么"></a>大致步骤及你需要什么</h2><h3 id="大致步骤"><a href="#大致步骤" class="headerlink" title="大致步骤"></a>大致步骤</h3><ol><li>在DN42的<a href="https://git.dn42.dev/">官方GIT</a>处申请一个账号，然后将后文创建的文件PR给<a href="https://git.dn42.dev/dn42/registry">注册存储库</a></li><li>在注册通过后，你需要<em>寻找一个可能的节点和你peer</em>，然后和节点的持有人交换信息，和他约定好使用的VPN软件和路由协议。</li><li>建立路由（一般是BGP），入网。</li><li>enjoy ，然后发现更多玩法（注册域名，建立网站啥啥的）</li></ol><h3 id="你需要什么"><a href="#你需要什么" class="headerlink" title="你需要什么"></a>你需要什么</h3><ol><li>一台24小时在线并且拥有root权限的服务器</li><li>大量时间</li><li>一颗热爱的心</li></ol><h2 id="开始注册"><a href="#开始注册" class="headerlink" title="开始注册"></a>开始注册</h2><p><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong><br><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong><br><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong></p><h3 id="寻找你的ASN-IPV4块-IPV6块"><a href="#寻找你的ASN-IPV4块-IPV6块" class="headerlink" title="寻找你的ASN IPV4块 IPV6块"></a>寻找你的ASN IPV4块 IPV6块</h3><p>找你喜欢的IP块和ASN就是了<br>IP地址由于DN42官方有保留块而且很容易和其他人撞上了，建议使用工具查找。<br>ASN也差不多，建议使用工具找<br><a href="https://explorer.burble.com/free#/">工具地址</a></p><h3 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h3><ol><li>在官方GIT注册一个账户，打开<code>dn42/registry</code>这个仓库，点右上角的 Fork，把仓库复制一份到你自己的账户。</li><li>将你的fork clone到本地。</li><li>在你的本地仓库创建一些文件，大概包括：<br>1. <code>data/mntner/[NAME]-MNT</code><br>2. <code>data/person/[NAME]-DN42</code><br>3. <code>data/aut-num/[YOUR_ASN]</code><br>4. <code>data/inetnum/[YOUR_IPV4_BLOCK]</code><br>5. <code>data/route/[YOUR_IPV4_BLOCK]</code><br>6. <code>data/inet6num/[YOUR_IPV6_BLOCK]</code><br>7. <code>data/route6/[YOUR_IPV6_BLOCK]</code> </li><li>将你创建的文件使用PGP签名提交到你fork的仓库里，然后向 <code>dn42/registry</code>发起 Pull Request（PR）。（<strong>注意：发PR一定要用英文</strong>）</li><li>等待你的PR被合并</li></ol><p>这里比较粗糙，你可以参考<a href="https://lantian.pub/article/modify-website/dn42-experimental-network-2020.lantian/#%E6%B3%A8%E5%86%8C%E8%BF%87%E7%A8%8B">LanTian大佬的博客</a> 或者我的<a href="https://git.dn42.dev/dn42/registry/pulls/3169">PR</a></p><h2 id="DN42入网"><a href="#DN42入网" class="headerlink" title="DN42入网"></a>DN42入网</h2><h3 id="先咕咕咕"><a href="#先咕咕咕" class="headerlink" title="先咕咕咕"></a>先咕咕咕</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="阅前须知"><a href="#阅前须知" class="headerlink" title="阅前须知"></a>阅前须知</h2><ul><li>阅读本教程，<strong>默认</strong>您拥有一定的<a href="https://blog.csdn.net/qq_44094296/article/details/114324505">git基础</a></li><li>阅读本教程，<strong>默认</strong>您已经阅读过<a href="https://blog.jyf.icu/2023/10/21/post2/">这篇文章</a></li><li>由于DN42的网络性质（详见DN42介绍部分），在中国境内链接<em><strong>可能有法律风险</strong></em>，请自行<strong>斟酌部署位置</strong></li></ul><h2 id="DN42介绍"><a href="#DN42介绍" class="headerlink" title="DN42介绍"></a>DN42介绍</h2><blockquote><p>DN42 全称 Decentralized Network 42（42 号去中心网络），是一个大型、去中心化的 VPN 网络。但是与其它传统 VPN 不同的是，DN42 本身不提供 VPN 出口服务，即不提供规避网络审查、流媒体解锁等类似服务。相反，DN42 的目的是模拟一个互联网。它使用了大量在目前互联网骨干上应用的技术（例如 BGP 和递归 DNS），可以很好地模拟一个真实的网络环境。<br>简而言之，DN42：</p><ul><li>不适合单纯想要保护隐私、规避网络审查的用户</li><li>不适合在网内消耗大量流量，例如用于解锁流媒体服务的用户</li><li>适合想要研究网络技术，练习服务器、路由器等网络设备配置，甚至后续在真实互联网建立 AS 的用户</li><li>适合拥有真实 AS，但担心自己<a href="https://blog.cloudflare.com/how-verizon-and-a-bgp-optimizer-knocked-large-parts-of-the-internet-offline-today/">配置错误广播出错误路由、干掉半个互联网</a>，希望有个地方测试的用户。<br>via <a href="https://lantian.pub/article/modify-website/dn42-experimental-network-2020.lantian/">LanTian’s blog</a><br>简单来说，DN42是一个大型VPN网络，为了模拟真实的互联网。（注意：<strong>在中国大陆区域链接VPN，可能存在法律风险，建议使用非大陆区域的服务器链接。</strong>）</li></ul></blockquote><h2 id="大致步骤及你需要什么"><a href="#大致步骤及你需要什么" class="headerlink" title="大致步骤及你需要什么"></a>大致步骤及你需要什么</h2><h3 id="大致步骤"><a href="#大致步骤" class="headerlink" title="大致步骤"></a>大致步骤</h3><ol><li>在DN42的<a href="https://git.dn42.dev/">官方GIT</a>处申请一个账号，然后将后文创建的文件PR给<a href="https://git.dn42.dev/dn42/registry">注册存储库</a></li><li>在注册通过后，你需要<em>寻找一个可能的节点和你peer</em>，然后和节点的持有人交换信息，和他约定好使用的VPN软件和路由协议。</li><li>建立路由（一般是BGP），入网。</li><li>enjoy ，然后发现更多玩法（注册域名，建立网站啥啥的）</li></ol><h3 id="你需要什么"><a href="#你需要什么" class="headerlink" title="你需要什么"></a>你需要什么</h3><ol><li>一台24小时在线并且拥有root权限的服务器</li><li>大量时间</li><li>一颗热爱的心</li></ol><h2 id="开始注册"><a href="#开始注册" class="headerlink" title="开始注册"></a>开始注册</h2><p><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong><br><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong><br><strong>强烈建议不要使用windows系统，如果一定要也请使用WSL</strong></p><h3 id="寻找你的ASN-IPV4块-IPV6块"><a href="#寻找你的ASN-IPV4块-IPV6块" class="headerlink" title="寻找你的ASN IPV4块 IPV6块"></a>寻找你的ASN IPV4块 IPV6块</h3><p>找你喜欢的IP块和ASN就是了<br>IP地址由于DN42官方有保留块而且很容易和其他人撞上了，建议使用工具查找。<br>ASN也差不多，建议使用工具找<br><a href="https://explorer.burble.com/free#/">工具地址</a></p><h3 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h3><ol><li>在官方GIT注册一个账户，打开<code>dn42/registry</code>这个仓库，点右上角的 Fork，把仓库复制一份到你自己的账户。</li><li>将你的fork clone到本地。</li><li>在你的本地仓库创建一些文件，大概包括：<br>1. <code>data/mntner/[NAME]-MNT</code><br>2. <code>data/person/[NAME]-DN42</code><br>3. <code>data/aut-num/[YOUR_ASN]</code><br>4. <code>data/inetnum/[YOUR_IPV4_BLOCK]</code><br>5. <code>data/route/[YOUR_IPV4_BLOCK]</code><br>6. <code>data/inet6num/[YOUR_IPV6_BLOCK]</code><br>7. <code>data/route6/[YOUR_IPV6_BLOCK]</code> </li><li>将你创建的文件使用PGP签名提交到你fork的仓库里，然后向 <code>dn42/registry</code>发起 Pull Request（PR）。（<strong>注意：发PR一定要用英文</strong>）</li><li>等待你的PR被合并</li></ol><p>这里比较粗糙，你可以参考<a href="https://lantian.pub/article/modify-website/dn42-experimental-network-2020.lantian/#%E6%B3%A8%E5%86%8C%E8%BF%87%E7%A8%8B">LanTian大佬的博客</a> 或者我的<a href="https://git.dn42.dev/dn42/registry/pulls/3169">PR</a></p><h2 id="后续步骤"><a href="#后续步骤" class="headerlink" title="后续步骤"></a>后续步骤</h2><p>那就是和别人peer然后入网啦<br>至于教程，后续会更的（可以看看DN42标签看看更新没有QAQ）</p>]]></content>
     
     
       
@@ -164,8 +185,8 @@
   
   <entry>
     <title>使用pgp向github提交签名commit</title>
-    <link href="https://blog.jyf.icu/2023/10/21/post2/"/>
-    <id>https://blog.jyf.icu/2023/10/21/post2/</id>
+    <link href="https://blog.jyf.icu/2023/10/21/%E7%AD%BE%E5%90%8D%E6%8F%90%E4%BA%A4commit/"/>
+    <id>https://blog.jyf.icu/2023/10/21/%E7%AD%BE%E5%90%8D%E6%8F%90%E4%BA%A4commit/</id>
     <published>2023-10-21T14:15:25.000Z</published>
     <updated>2024-01-01T13:39:58.000Z</updated>
     
@@ -188,8 +209,8 @@
   
   <entry>
     <title>CloudFlare越来越慢了</title>
-    <link href="https://blog.jyf.icu/2023/10/02/post7/"/>
-    <id>https://blog.jyf.icu/2023/10/02/post7/</id>
+    <link href="https://blog.jyf.icu/2023/10/02/%E7%97%9B%E6%96%A5cf%E6%97%A0%E8%83%BD%E5%85%9A/"/>
+    <id>https://blog.jyf.icu/2023/10/02/%E7%97%9B%E6%96%A5cf%E6%97%A0%E8%83%BD%E5%85%9A/</id>
     <published>2023-10-02T12:41:33.000Z</published>
     <updated>2023-11-04T14:54:58.374Z</updated>
     
@@ -210,8 +231,8 @@
   
   <entry>
     <title>快速创建一个简单并且优雅的静态博客</title>
-    <link href="https://blog.jyf.icu/2023/09/10/post1/"/>
-    <id>https://blog.jyf.icu/2023/09/10/post1/</id>
+    <link href="https://blog.jyf.icu/2023/09/10/%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://blog.jyf.icu/2023/09/10/%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-09-10T01:02:25.000Z</published>
     <updated>2023-09-16T14:20:38.669Z</updated>
     
@@ -231,8 +252,8 @@
   
   <entry>
     <title>我方奉劝某人迷途知返</title>
-    <link href="https://blog.jyf.icu/2023/04/02/post8/"/>
-    <id>https://blog.jyf.icu/2023/04/02/post8/</id>
+    <link href="https://blog.jyf.icu/2023/04/02/%E4%B8%AD%E4%BA%8C%E5%85%AC%E5%91%8A/"/>
+    <id>https://blog.jyf.icu/2023/04/02/%E4%B8%AD%E4%BA%8C%E5%85%AC%E5%91%8A/</id>
     <published>2023-04-02T10:31:05.000Z</published>
     <updated>2023-11-04T14:54:58.350Z</updated>
     
@@ -253,8 +274,8 @@
   
   <entry>
     <title>三星堆究竟牛逼在哪？</title>
-    <link href="https://blog.jyf.icu/2023/02/19/post9/"/>
-    <id>https://blog.jyf.icu/2023/02/19/post9/</id>
+    <link href="https://blog.jyf.icu/2023/02/19/%E4%B8%89%E6%98%9F%E5%A0%86%E7%A9%B6%E7%AB%9Fnb%E5%9C%A8%E5%93%AA/"/>
+    <id>https://blog.jyf.icu/2023/02/19/%E4%B8%89%E6%98%9F%E5%A0%86%E7%A9%B6%E7%AB%9Fnb%E5%9C%A8%E5%93%AA/</id>
     <published>2023-02-19T15:11:05.000Z</published>
     <updated>2023-11-04T14:54:58.342Z</updated>
     
@@ -275,8 +296,8 @@
   
   <entry>
     <title>对阿富汗局势的声明</title>
-    <link href="https://blog.jyf.icu/2023/01/25/post10/"/>
-    <id>https://blog.jyf.icu/2023/01/25/post10/</id>
+    <link href="https://blog.jyf.icu/2023/01/25/%E4%B8%AD%E8%80%8C%E5%85%AC%E5%91%8A2/"/>
+    <id>https://blog.jyf.icu/2023/01/25/%E4%B8%AD%E8%80%8C%E5%85%AC%E5%91%8A2/</id>
     <published>2023-01-25T14:42:03.000Z</published>
     <updated>2024-01-01T12:05:35.000Z</updated>
     
@@ -298,8 +319,8 @@
   
   <entry>
     <title>“Sam的博客”祝大家新春快乐</title>
-    <link href="https://blog.jyf.icu/2023/01/21/post6/"/>
-    <id>https://blog.jyf.icu/2023/01/21/post6/</id>
+    <link href="https://blog.jyf.icu/2023/01/21/2023%E6%98%A5%E8%8A%82%E5%BF%AB%E4%B9%90/"/>
+    <id>https://blog.jyf.icu/2023/01/21/2023%E6%98%A5%E8%8A%82%E5%BF%AB%E4%B9%90/</id>
     <published>2023-01-21T14:03:36.000Z</published>
     <updated>2023-11-04T14:54:58.326Z</updated>
     

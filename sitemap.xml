@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.jyf.icu/2024/02/18/test/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jyf.icu/2023/11/11/%E6%B3%A8%E5%86%8Cdn42/</loc>
+    
+    <lastmod>2024-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jyf.icu/categories/index.html</loc>
     
     <lastmod>2024-02-04</lastmod>
@@ -29,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2024/01/27/post/</loc>
+    <loc>https://blog.jyf.icu/2024/01/27/openai%E6%B5%8B%E8%AF%84/</loc>
     
     <lastmod>2024-01-28</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/12/31/post11/</loc>
+    <loc>https://blog.jyf.icu/2023/12/31/%E4%B8%BB%E5%B8%AD2024%E8%B4%BA%E8%AF%8D/</loc>
     
     <lastmod>2024-01-01</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/10/21/post2/</loc>
+    <loc>https://blog.jyf.icu/2023/10/21/%E7%AD%BE%E5%90%8D%E6%8F%90%E4%BA%A4commit/</loc>
     
     <lastmod>2024-01-01</lastmod>
     
@@ -56,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/01/25/post10/</loc>
+    <loc>https://blog.jyf.icu/2023/01/25/%E4%B8%AD%E8%80%8C%E5%85%AC%E5%91%8A2/</loc>
     
     <lastmod>2024-01-01</lastmod>
     
@@ -74,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/12/31/post5/</loc>
+    <loc>https://blog.jyf.icu/2023/12/31/2024%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/</loc>
     
     <lastmod>2023-12-31</lastmod>
     
@@ -83,18 +101,9 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/12/17/post4/</loc>
+    <loc>https://blog.jyf.icu/2023/12/17/%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%9C%A8%E5%90%AC%E5%90%97/</loc>
     
     <lastmod>2023-12-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jyf.icu/2023/11/11/post3/</loc>
-    
-    <lastmod>2023-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/10/02/post7/</loc>
+    <loc>https://blog.jyf.icu/2023/10/02/%E7%97%9B%E6%96%A5cf%E6%97%A0%E8%83%BD%E5%85%9A/</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -119,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/04/02/post8/</loc>
+    <loc>https://blog.jyf.icu/2023/04/02/%E4%B8%AD%E4%BA%8C%E5%85%AC%E5%91%8A/</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -128,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/02/19/post9/</loc>
+    <loc>https://blog.jyf.icu/2023/02/19/%E4%B8%89%E6%98%9F%E5%A0%86%E7%A9%B6%E7%AB%9Fnb%E5%9C%A8%E5%93%AA/</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -137,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/01/21/post6/</loc>
+    <loc>https://blog.jyf.icu/2023/01/21/2023%E6%98%A5%E8%8A%82%E5%BF%AB%E4%B9%90/</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -173,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jyf.icu/2023/09/10/post1/</loc>
+    <loc>https://blog.jyf.icu/2023/09/10/%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2023-09-16</lastmod>
     
@@ -184,7 +193,7 @@
 
   <url>
     <loc>https://blog.jyf.icu/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -192,77 +201,77 @@
   
   <url>
     <loc>https://blog.jyf.icu/tags/Openai/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/Gpt/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/%E6%B5%8B%E8%AF%84/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/%E9%87%8D%E8%A6%81%E8%AE%B2%E8%AF%9D/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/%E6%96%B0%E5%B9%B4%E8%B4%BA%E8%AF%8D/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/git/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/PGP/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/DN42/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/Tech/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/Web/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.jyf.icu/tags/%E6%95%B4%E6%B4%BB/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -271,7 +280,7 @@
   
   <url>
     <loc>https://blog.jyf.icu/categories/uncategorized/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
