@@ -6,7 +6,7 @@
   <link href="https://blog.jyf.icu/atom.xml" rel="self"/>
   
   <link href="https://blog.jyf.icu/"/>
-  <updated>2024-02-18T10:25:53.000Z</updated>
+  <updated>2024-04-04T03:09:40.000Z</updated>
   <id>https://blog.jyf.icu/</id>
   
   <author>
@@ -17,43 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://blog.jyf.icu/2024/02/18/test/"/>
-    <id>https://blog.jyf.icu/2024/02/18/test/</id>
-    <published>2024-02-18T10:25:37.555Z</published>
-    <updated>2024-02-18T10:25:53.000Z</updated>
+    <title>web加密与签名的选择</title>
+    <link href="https://blog.jyf.icu/2024/04/04/%E6%B5%85%E8%B0%88WEB%E9%AA%8C%E8%AF%81/"/>
+    <id>https://blog.jyf.icu/2024/04/04/%E6%B5%85%E8%B0%88WEB%E9%AA%8C%E8%AF%81/</id>
+    <published>2024-04-04T02:00:00.000Z</published>
+    <updated>2024-04-04T03:09:40.000Z</updated>
     
-    <content type="html"><![CDATA[<p>监控程序测试文件</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;监控程序测试文件&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.jyf.icu/2024/02/04/hello-world/"/>
-    <id>https://blog.jyf.icu/2024/02/04/hello-world/</id>
-    <published>2024-02-04T08:26:54.791Z</published>
-    <updated>2024-02-04T08:26:54.791Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>在网络应用程序中，安全传输和验证数据是至关重要的。JSON Web Token（JWT）是一种流行的标准，用于在不同的应用程序之间安全地传输声明。然而，随着安全需求的增加，衍生出了两个重要的扩展：JSON Web Encryption（JWE）和 JSON Web Signature（JWS）。本文将深入探讨这三者之间的异同，以及在实际应用中如何选择。</p><h3 id="JWT（JSON-Web-Token）"><a href="#JWT（JSON-Web-Token）" class="headerlink" title="JWT（JSON Web Token）"></a>JWT（JSON Web Token）</h3><p>JWT 是一种紧凑而自包含的方式，用于在网络应用之间传输信息。它通常由三部分组成：头部（Header）、载荷（Payload）、签名（Signature）。下面是一个简单的 Python 示例，演示如何创建和验证一个JWT：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jwt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建JWT</span></span><br><span class="line">payload = &#123;<span class="string">&quot;user_id&quot;</span>: <span class="number">123</span>, <span class="string">&quot;username&quot;</span>: <span class="string">&quot;example_user&quot;</span>&#125;</span><br><span class="line">secret_key = <span class="string">&quot;your_secret_key&quot;</span></span><br><span class="line">jwt_token = jwt.encode(payload, secret_key, algorithm=<span class="string">&quot;HS256&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;JWT token:&quot;</span>, jwt_token)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 验证JWT</span></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    decoded_payload = jwt.decode(jwt_token, secret_key, algorithms=[<span class="string">&quot;HS256&quot;</span>])</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Decoded payload:&quot;</span>, decoded_payload)</span><br><span class="line"><span class="keyword">except</span> jwt.ExpiredSignatureError:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;JWT token has expired.&quot;</span>)</span><br><span class="line"><span class="keyword">except</span> jwt.InvalidSignatureError:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Invalid JWT signature.&quot;</span>)</span><br></pre></td></tr></table></figure><p>在上面的示例中，我们使用 PyJWT 库来创建和验证 JWT。<code>jwt.encode()</code> 方法用于创建 JWT，而 <code>jwt.decode()</code> 方法用于验证 JWT 并解码其中的载荷。</p><h3 id="JWE（JSON-Web-Encryption）"><a href="#JWE（JSON-Web-Encryption）" class="headerlink" title="JWE（JSON Web Encryption）"></a>JWE（JSON Web Encryption）</h3><p>JWE 提供了对 JSON 数据的加密功能，确保在传输过程中数据的保密性。以下是一个简单的 Python 示例，演示如何使用 JWE 加密和解密数据：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> jose <span class="keyword">import</span> jwe</span><br><span class="line"></span><br><span class="line"><span class="comment"># 加密数据</span></span><br><span class="line">payload = &#123;<span class="string">&quot;user_id&quot;</span>: <span class="number">123</span>, <span class="string">&quot;username&quot;</span>: <span class="string">&quot;example_user&quot;</span>&#125;</span><br><span class="line">key = <span class="string">&quot;your_encryption_key&quot;</span></span><br><span class="line">encrypted_token = jwe.encrypt(payload, key, alg=<span class="string">&quot;dir&quot;</span>, enc=<span class="string">&quot;A256CBC-HS512&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Encrypted token:&quot;</span>, encrypted_token)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 解密数据</span></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    decrypted_payload = jwe.decrypt(encrypted_token, key)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Decrypted payload:&quot;</span>, decrypted_payload)</span><br><span class="line"><span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Decryption failed:&quot;</span>, e)</span><br></pre></td></tr></table></figure><p>在上面的示例中，我们使用 jose 库来进行 JWE 的加密和解密操作。<code>jwe.encrypt()</code> 方法用于加密数据，而 <code>jwe.decrypt()</code> 方法用于解密数据。</p><h3 id="JWS（JSON-Web-Signature）"><a href="#JWS（JSON-Web-Signature）" class="headerlink" title="JWS（JSON Web Signature）"></a>JWS（JSON Web Signature）</h3><p>JWS 提供了对 JSON 数据的签名功能，确保数据的完整性和真实性。以下是一个简单的 Python 示例，演示如何使用 JWS 签名和验证数据：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> jose <span class="keyword">import</span> jwt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建JWT签名</span></span><br><span class="line">payload = &#123;<span class="string">&quot;user_id&quot;</span>: <span class="number">123</span>, <span class="string">&quot;username&quot;</span>: <span class="string">&quot;example_user&quot;</span>&#125;</span><br><span class="line">key = <span class="string">&quot;your_signing_key&quot;</span></span><br><span class="line">signed_token = jwt.encode(payload, key, algorithm=<span class="string">&quot;HS256&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Signed token:&quot;</span>, signed_token)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 验证JWT签名</span></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    decoded_payload = jwt.decode(signed_token, key, algorithms=[<span class="string">&quot;HS256&quot;</span>])</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Decoded payload:&quot;</span>, decoded_payload)</span><br><span class="line"><span class="keyword">except</span> jwt.ExpiredSignatureError:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;JWT token has expired.&quot;</span>)</span><br><span class="line"><span class="keyword">except</span> jwt.InvalidSignatureError:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Invalid JWT signature.&quot;</span>)</span><br></pre></td></tr></table></figure><p>在上面的示例中，我们仍然使用 PyJWT 库来创建和验证 JWT，但这次我们仅使用签名功能而不包括加密。<code>jwt.encode()</code> 方法用于创建带有签名的 JWT，而 <code>jwt.decode()</code> 方法用于验证 JWT 并解码其中的载荷。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在选择 JWT、JWE 和 JWS 时，需要根据应用程序的具体需求进行权衡。JWT 适用于简单的声明传递和无状态身份验证，而 JWE 和 JWS 则提供了更多的安全功能，可以确保数据在传输过程中的保密性和完整性。因此，在实际应用中，开发人员应根据具体的安全需求选择合适的解决方案。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;在网络应用程序中，安全传输和验证数据是至关重要的。JSON Web Token（JWT）是一种流行的标准，用于在不同的应用程序之间安全地传输声明。然而，随着安全需求的增加，衍生出了两个重要的扩展：JSON Web Encryption（JWE）和 JSON Web Sign</summary>
       
     
     
     
+    
+    <category term="技术" scheme="https://blog.jyf.icu/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="加密" scheme="https://blog.jyf.icu/tags/%E5%8A%A0%E5%AF%86/"/>
     
   </entry>
   
